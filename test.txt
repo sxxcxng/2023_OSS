@@ -1,1 +1,1 @@
-echo test text
+test text
