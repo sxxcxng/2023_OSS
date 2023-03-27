@@ -27,17 +27,19 @@
 * log
     * 예) git log --oneline --decorate --graph --all
 
-------
+* * *
 ### 2주차 숙제
 
 ```bash
 #!/usr/bin/env bash
 echo "----------"
 echo "name :"
+
 echo
 
 echo "----------"
 echo "student id :"
+
 
 
 file_path=`find /home/kau2/ -name w2_homework.txt 2> /dev/null`
@@ -62,8 +64,8 @@ tail -n 1 $file_path
 ### 목록
 #### 번호 있는 목록 : 내림차순 정렬
 1. 첫번째
-2. 두번째
 3. 세번째
+2. 두번째
 
 #### 번호 없는 목록 : *, -, +
 * 첫번째
@@ -73,6 +75,13 @@ tail -n 1 $file_path
 * 빨강
   * 녹색
     * 파랑
+
+# This is a H1
+## This is a H2
+### This is a H3
+#### This is a H4
+##### This is a H5
+###### This is a H6
 
 ### 강조
 *single asterisks*    
